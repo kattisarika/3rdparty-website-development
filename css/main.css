@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import "compass/css3";
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: block;
+}
+
+img {
+    display: table-cell;
+    width: 100%;
+    height: 600px;
+}
+
+.mainImg {
+    background: url("/images/hero-bg.jpg");
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.mainImg p {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    left: 0;
+    top: 270px;
+    position: relative;
+}
+
+nav {
+    padding: 10px;
+    display: table-cell;
+    background: -webkit-gradient(linear, left top, right top, from(#ffac00), color-stop(30%, #fdd700), color-stop(70%, #fdd700), color-stop(70%, #ffac00));
+    background: -webkit-linear-gradient(left, #ffac00, #fdd700 30%, #fdd700 70%, #ffac00);
+    background: linear-gradient(to right, #ffac00, #fdd700 30%, #fdd700 70%, #ffac00);
+    height: 67px;
+}
+
+ul {
+    list-style: none;
+    /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.firstsection {
+    text-align: center;
+    width: 100%;
+}
+
+.firstsection {
+    margin-top: 68px;
+}
+
+.secondsection {
+    margin-top: 59px;
+}
+
+.fourthsection {
+    margin-top: 61px;
+}
+
+.fifthsection {
+    margin-top: 55px;
+}
+
+.firstsection .splsent,
+.secondsection .splsent {
+    color: black;
+    font-weight: bold;
+}
+
+.firstsection p {
+    margin: 0 auto;
+    color: black;
+}
+
+.secondsection p {
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+}
+
+.thirdsectiona {
+    margin-top: 30px;
+}
+
+.thirdsection {
+    background: url("/images/lgss-mural.jpg");
+    background-size: cover;
+    height: 490px;
+    width: 865px;
+    margin-left: 285px;
+    margin-right: 285px;
+}
+
+.thirdsectionp {
+    position: relative;
+    color: white;
+    bottom: -390px;
+    left: 12px;
+    font-size: 12px;
+}
+
+.fourthsection p {
+    color: black;
+    text-align: left;
+    margin-left: 284px;
+    margin-right: 284px;
+}
+
+.fifthsection p {
+    color: black;
+    text-align: left;
+    margin-left: 284px;
+    margin-right: 284px;
+}
+
+.sixthsection {
+    margin-top: 61px;
+    background: url("/images/lgss-people.jpg");
+    height: 201px;
+}
+
+.seventhsection {
+    margin-top: 68px;
+}
+
+.seventhsection p {
+    color: black;
+    text-align: left;
+    margin-left: 284px;
+    margin-right: 284px;
+}
+
+.eightsection {
+    margin-top: 52px;
+}
+
+.eightsection p {
+    color: black;
+    text-align: left;
+    margin-left: 284px;
+    margin-right: 284px;
+}
+
+.ninthsection {
+    margin-top: 52px;
+}
+
+.ninthsection p {
+    color: black;
+    text-align: left;
+    margin-left: 284px;
+    margin-right: 284px;
+}
+
+.tenthsection {
+    margin-top: 61px;
+    background: url("/images/viral-chart.jpg");
+    margin-left: 284px;
+    margin-right: 284px;
+    height: 356px;
+}
+
+.eleventhsection {
+    margin-top: 52px;
+}
+
+.eleventhsection p {
+    color: black;
+    text-align: left;
+    margin-left: 284px;
+    margin-right: 284px;
+}
+
+.twelvesection {
+    margin-top: 54px;
+}
+
+.twelevea {
+    text-align: center;
+    background-color: #eeedeb;
+    padding: 10px;
+}
+
+.tweleveb {
+    background: url("/images/about-bg.jpg");
+    width: 100%;
+    height: 350px;
+}
+
+.thirteen {
+    margin-top: 60px;
+}
+
+.thirteen h2 {
+    text-align: center
+}
+
+.thirteen p {
+    color: black;
+    text-align: center;
+    margin-left: 284px;
+    margin-right: 284px;
+}
+
+.fourteen {
+    margin-top: 35px;
+}
+
+.fourteen img {
+    width: 35px;
+    height: 25px;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.fifteen {
+    margin-top: 35px;
+}
+
+.fifteen p {
+    color: black;
+    text-align: center;
+    margin-left: 284px;
+    margin-right: 284px;
+}
+
+.sixteen {
+    margin-top: 40px;
+}
+
+.sixteena {
+    background: url("/images/about-diagram.png") no-repeat;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 100%;
+    height: 700px;
+    margin-left: 260px;
+    margin-right: 280px;
+}
